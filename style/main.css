@@ -2,8 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border-radius: 7px;
+    
 }
+
+
 
 /* CMS */
 
@@ -50,16 +52,17 @@ textarea, select{
 
 button{
     display: block;
-    margin: 20px auto;
-    background-color: rgb(72, 132, 160);
+    margin: 50px auto;
+    background-color: #262526;
+    color:white;
     border: none;
-    color: white;
     transition: all .2s linear;
 }
 
 button:hover{
-    background-color: rgb(132, 196, 226);
+    background-color:#9d9c9c;
     transform: scale(1.1);
+    color:black;
 }
 
 .sidebar{
@@ -83,6 +86,7 @@ button:hover{
 
 nav{
     padding: 5% 0 0 15%;
+    color: #262526;
 }
 
 nav ul{
@@ -90,7 +94,6 @@ nav ul{
 }
 
 nav a{
-    text-decoration: none;
     font-size: 1.2em;
     color: white;
 }
@@ -187,29 +190,42 @@ text-align: center;
 /* index */
 
 .home{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
+.home a{
+    text-decoration: none;
+}
+
 .login{
- background-color: #4884a0;
+ background-color: #262526;
  color: #fff;
- padding: 5px;
+ margin-top:3%;
+ padding: 10px;
  float: right;
 }
 
-.filters{
+
+.filters {
     text-align: center;
     margin: 50px 0 20px 0;
+    
+}
+.filters a{
+    color: #262526;
+    font-size: 20px;
 }
 
 .filters li{
     display: inline;
-    margin: 10px;
+    margin: 30px;
 }
 
 .filters li a:hover{
-    background-color: rgb(85, 172, 199);
+    background-color: #dbdbdb;
+    border-radius: 7px;
+    color: #262526;
 }
 
 .filters li a{
@@ -224,16 +240,19 @@ text-decoration: none;
 
 .product-box{
     display: inline-block;
-    margin: 5px;
+    margin: 6%;
     text-align: center;
     width: 20%;
-    background-color: #dbdbdb;
+    background-color: #cccbcb;
     color: #000;
+    padding-bottom: 1%;
 }
 
 .product-box:hover{
-    background-color: #c5c5c5;
+    background-color: #9d9c9c;
 }
+
+
 
 .product-box img{
     max-width: 100%;
@@ -266,5 +285,16 @@ text-decoration: none;
 }
 
 .search-form input{
-    width: 200px;
+    width: 600px;
+}
+
+footer{
+    height: 100px;
+    clear: both;
+    background-color: #262526;
+}
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 50px
 }

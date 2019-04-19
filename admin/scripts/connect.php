@@ -13,7 +13,7 @@ $dsn = 'mysql:' . http_build_query($db_dsn, '', ';');
 
 //set up connection credentials
 $db_user = 'root';
-$db_pass = '';
+$db_pass = 'root';
 
 //checks to see if connection was a success, if it wasnt throw back a connection error
 try{

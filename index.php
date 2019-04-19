@@ -30,7 +30,8 @@ if  (isset($_GET['search'])){
 
 <section class="home">
 
-    <h1>Sportchek</h1>
+    <img src="images/logo.png">
+    <!-- <h1>Sportchek</h1> -->
 
     <a class="login" href="admin/login_form.php">LOGIN PAGE</a>
 
