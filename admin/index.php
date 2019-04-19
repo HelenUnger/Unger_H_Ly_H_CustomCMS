@@ -30,11 +30,3 @@
 
 </section>
 
-<?php include('../templates/foot.php');?>
-
-
-
-
-    <!-- make custom dashboard, create stuff for homepage? add fake links make look cool -->
-    <!-- different messages according to what time of day it is -->
-    <!-- display last login date -->

@@ -52,11 +52,3 @@
 
 </section>
 
-<?php include('../templates/foot.php');?>
-
-
-
-
-
-
-    <!-- make a mini register form, style the forms, add error styles -->
