@@ -54,5 +54,3 @@
     </div>
 
 </section>
-
-<?php include('../templates/foot.php');?>
